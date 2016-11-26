@@ -1,7 +1,13 @@
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
-<link rel="stylesheet" type="text/css" href="./style.less">
+<link rel="stylesheet/less" type="text/css" href="./style.less">
 
-<div id="container"></div>
+<!-- CONTAINER -->
+
+<div id="container">
+    <h3>Loading...</h3>
+</div>
+
+<!-- SCRIPTS -->
 
 <!-- Ref: https://cdnjs.com/libraries/less.js/ -->
 <script src="./lib/less.js"></script>
@@ -12,3 +18,9 @@
 <script src="./lib/react-dom.js"></script>
 <!-- Money Maker -->
 <script type="text/babel" src="index.js" charset="utf-8"></script>
+
+<!-- Uncomment out if using Browser-Sync
+<script id="__bs_script__">//<![CDATA[                                                                            
+    document.write("<script async src='http://HOST:3000/browser-sync/browser-sync-client.js?v=2.18.2'><\/script>".replace("HOST", location.hostname));                                                                              
+//]]></script>
+-->
